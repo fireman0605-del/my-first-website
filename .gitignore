@@ -1,0 +1,27 @@
+# Claude 임시 파일
+tmpclaude-*
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# IDE/에디터
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# 환경 변수 (보안)
+.env
+.env.local
+.env.*.local
+.mcp.json
+
+# 빌드 결과물
+dist/
+build/
+*.log
