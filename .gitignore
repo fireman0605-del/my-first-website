@@ -1,27 +1,29 @@
-# Claude 임시 파일
-tmpclaude-*
+# MCP 설정 파일
+.mcp.json
 
-# 운영체제 파일
-.DS_Store
-Thumbs.db
+# Claude 로컬 설정
+.claude/
 
-# IDE/에디터
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Node.js
+# Node.js 관련
 node_modules/
-npm-debug.log*
+package-lock.json
 
-# 환경 변수 (보안)
+# 캐시 파일
+.cache/
+.vite/
+dist/
+
+# 환경 변수
 .env
 .env.local
 .env.*.local
-.mcp.json
 
-# 빌드 결과물
-dist/
-build/
+# OS/IDE 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 로그 파일
 *.log
+npm-debug.log*
